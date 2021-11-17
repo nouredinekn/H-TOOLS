@@ -225,7 +225,7 @@ elif pp==2:
    
    \033[1;35;40m
       """)
-    w = "url.txt"
+    w = "urls.txt"
     url = open(w, "r").read().splitlines()
     o = open("urls_clinks.txt", "w")
     for line in url:
