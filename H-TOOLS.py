@@ -120,7 +120,6 @@ if pp==1:
             if r == 200:
                 print("\033[1;32;40mFOND--->  " + url)
                 o.write(url + '\n')
-                break
             else:
                 print("\033[1;31;40mNOT FOND ---->  " + url)
 
@@ -173,7 +172,6 @@ if pp==1:
             if r == 200:
                 print("\033[1;32;40mFOND----> " + url)
                 o.write(url)
-                break
             else:
                 print("\033[1;31;40mNOT FOND ----> " + url)
             i += 1
@@ -187,7 +185,6 @@ if pp==1:
             if r.status_code == 200:
                 print("\033[1;32;40mFOND----> " + url)
                 o.write(url + '\n')
-                break
             else:
                 print("\033[1;31;40mNOT FOND----> " + url)
             i += 1
@@ -201,7 +198,6 @@ if pp==1:
             if r.status_code == 200:
                 print("\033[1;32;40mFOND----> " + url)
                 o.write(url + '\n')
-                break
             else:
                 print("\033[1;31;40mNOT FOND ----> " + url)
             i += 1
